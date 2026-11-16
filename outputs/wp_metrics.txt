@@ -1,0 +1,33 @@
+1st innings (projected total -> chase model): balls=99,973 matches=811  logloss=0.623 (no-skill 0.693)  brier=0.215  AUC=0.718
+2nd innings (chase model): balls=91,809 matches=811  logloss=0.397 (no-skill 0.692)  brier=0.127  AUC=0.902
+2nd innings, recalibrated: balls=91,809 matches=811  logloss=0.393 (no-skill 0.692)  brier=0.127  AUC=0.902
+
+Calibration (out-of-fold, grouped by match):
+                        pred  actual  balls
+innings bin                                
+1       (-0.001, 0.1]  0.069   0.129   2818
+        (0.1, 0.2]     0.154   0.195   7818
+        (0.2, 0.3]     0.252   0.271  10598
+        (0.3, 0.4]     0.353   0.389  14134
+        (0.4, 0.5]     0.449   0.475  17581
+        (0.5, 0.6]     0.549   0.594  20645
+        (0.6, 0.7]     0.645   0.668  14119
+        (0.7, 0.8]     0.747   0.750   7977
+        (0.8, 0.9]     0.844   0.917   3374
+        (0.9, 1.0]     0.934   0.716    909
+2       (-0.001, 0.1]  0.034   0.029  19714
+        (0.1, 0.2]     0.148   0.149   8424
+        (0.2, 0.3]     0.249   0.244   7358
+        (0.3, 0.4]     0.349   0.339   6870
+        (0.4, 0.5]     0.449   0.434   6265
+        (0.5, 0.6]     0.550   0.600   5588
+        (0.6, 0.7]     0.650   0.671   5691
+        (0.7, 0.8]     0.753   0.754   7112
+        (0.8, 0.9]     0.851   0.849   8157
+        (0.9, 1.0]     0.966   0.960  16630
+
+Innings-break seam |WP end of 1st inns - WP start of chase|: mean 0.0001, max 0.0557
+
+Leverage normaliser (mean raw swing per ball): 0.0130
+Elo strength term: ON
+Leverage quantiles: p50=0.77  p75=1.21  p90=1.90  p95=2.59  p99=5.23

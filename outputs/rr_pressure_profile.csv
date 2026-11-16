@@ -1,0 +1,19 @@
+side,phase,metric,RR,rank_of,RR_balls
+batting,powerplay,Runs above expected,9.714554185430142,1 of 10,477
+batting,powerplay,Survival,0.4532810412727,5 of 10,477
+batting,powerplay,WPA,22.223244924371325,1 of 10,477
+batting,middle,Runs above expected,8.216763088842457,1 of 10,602
+batting,middle,Survival,0.8590274215516919,1 of 10,602
+batting,middle,WPA,15.061864985019904,1 of 10,602
+batting,death,Runs above expected,7.882908714148767,2 of 9,526
+batting,death,Survival,-0.5971761210958136,6 of 9,526
+batting,death,WPA,-27.466960847043687,6 of 9,526
+bowling,powerplay,Runs saved,0.616173999695834,5 of 10,520
+bowling,powerplay,Dots,2.338308395572135,2 of 10,520
+bowling,powerplay,WPA,-12.334127860222344,7 of 10,520
+bowling,middle,Runs saved,0.014653565699914979,7 of 10,926
+bowling,middle,Dots,-4.356175823922151,10 of 10,926
+bowling,middle,WPA,2.086115306912808,6 of 10,926
+bowling,death,Runs saved,5.955822929120879,3 of 10,622
+bowling,death,Dots,-2.1932101798374113,8 of 10,622
+bowling,death,WPA,-13.85193094830221,8 of 10,622

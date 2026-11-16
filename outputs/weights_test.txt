@@ -1,0 +1,59 @@
+Repeatability = mean Spearman of the rating between two random halves of matches (20 splits, ± sd), and between 2022-24 and 2025-26. Stability = mean bootstrap P(top 10) of the list's own top 10 (100 resamples). Overlap = names shared with the current Day 4 top 10.
+
+=== BATTERS ===
+Component repeatability (random halves): wpa -0.06, rae +0.23, surv +0.11
+                                     weighting repeat_random  repeat_time  stability overlap_with_current
+        A. Day 4 (WPA-led, with 'holds level')  -0.13 ± 0.07        -0.33       0.51                 6/10
+              B. current without 'holds level'  -0.05 ± 0.07        -0.23       0.49                 8/10
+C. repeatable-led (runs/survival 70%, WPA 30%)  -0.02 ± 0.08        -0.21       0.46                10/10
+                       D. runs + survival only  -0.02 ± 0.10        -0.17       0.48                 8/10
+                   E. reliability-proportional  +0.06 ± 0.09        -0.15       0.57                 7/10
+
+Weights:
+  A. {'wpa_p': 0.4, 'rae_p': 0.2, 'surv_p': 0.2, 'hold': 0.2}
+  B. {'wpa_p': 0.5, 'rae_p': 0.25, 'surv_p': 0.25}
+  C. {'rae_p': 0.4, 'surv_p': 0.3, 'wpa_p': 0.3}
+  D. {'rae_p': 0.5, 'surv_p': 0.5}
+  E. {'rae_p': 0.68, 'surv_p': 0.32}
+
+Top 10 under each weighting (bootstrap P(top 10) in brackets):
+                       A.                      B.                       C.                      D.                       E.
+1         Tim David (80%)         Tim David (88%)          Tim David (86%)         Tim David (75%)          Tim David (78%)
+2   Ashutosh Sharma (84%)   Ashutosh Sharma (80%)    Ashutosh Sharma (74%)   Pathum Nissanka (68%)    Pathum Nissanka (72%)
+3      Shreyas Iyer (49%)      Shreyas Iyer (48%)    Pathum Nissanka (45%)  Suryakumar Yadav (36%)   Suryakumar Yadav (60%)
+4   Pathum Nissanka (47%)   Pathum Nissanka (48%)       Shreyas Iyer (51%)   Ashutosh Sharma (68%)    Ashutosh Sharma (62%)
+5     Towhid Hridoy (51%)  Suryakumar Yadav (31%)   Suryakumar Yadav (27%)    Ryan Rickelton (64%)  Prabhsimran Singh (59%)
+6      Matthew Wade (43%)       Rinku Singh (47%)        Rinku Singh (34%)      David Warner (41%)          Phil Salt (53%)
+7       Rinku Singh (45%)     Towhid Hridoy (46%)      Towhid Hridoy (34%)       Rinku Singh (45%)     Ryan Rickelton (47%)
+8     Dasun Shanaka (38%)      Matthew Wade (37%)    Reeza Hendricks (41%)     Towhid Hridoy (36%)   Heinrich Klaasen (50%)
+9     Jitesh Sharma (40%)   Reeza Hendricks (37%)     Ryan Rickelton (34%)      Shreyas Iyer (30%)    Reeza Hendricks (52%)
+10    Rahul Tewatia (31%)     Dasun Shanaka (32%)  Prabhsimran Singh (39%)     Sai Sudharsan (13%)    Nicholas Pooran (33%)
+
+=== BOWLERS ===
+Component repeatability (random halves): wpa -0.01, rsave +0.21, wae +0.10, dot +0.29
+                                 weighting repeat_random  repeat_time  stability overlap_with_current
+    A. Day 4 (WPA-led, with 'holds level')  +0.01 ± 0.10         0.17       0.50                 8/10
+          B. current without 'holds level'  +0.10 ± 0.11         0.31       0.53                 8/10
+C. repeatable-led (runs/dots 60%, WPA 25%)  +0.17 ± 0.11         0.46       0.50                10/10
+       D. runs saved + dots + wickets only  +0.23 ± 0.11         0.50       0.48                 8/10
+               E. reliability-proportional  +0.24 ± 0.11         0.46       0.53                 7/10
+
+Weights:
+  A. {'wpa_p': 0.4, 'rsave_p': 0.15, 'wae_p': 0.15, 'dot_p': 0.1, 'hold': 0.2}
+  B. {'wpa_p': 0.5, 'rsave_p': 0.2, 'wae_p': 0.2, 'dot_p': 0.1}
+  C. {'rsave_p': 0.35, 'dot_p': 0.25, 'wae_p': 0.15, 'wpa_p': 0.25}
+  D. {'rsave_p': 0.45, 'dot_p': 0.35, 'wae_p': 0.2}
+  E. {'rsave_p': 0.36, 'wae_p': 0.16, 'dot_p': 0.48}
+
+Top 10 under each weighting (bootstrap P(top 10) in brackets):
+                           A.                        B.                         C.                        D.                        E.
+1      Mitchell Santner (84%)    Mitchell Santner (85%)     Mitchell Santner (82%)    Mitchell Santner (81%)    Mitchell Santner (74%)
+2        Josh Hazlewood (71%)      Josh Hazlewood (68%)         Sunil Narine (75%)        Sunil Narine (74%)      Josh Hazlewood (62%)
+3         Krunal Pandya (75%)       Krunal Pandya (79%)       Josh Hazlewood (62%)      Josh Hazlewood (63%)        Sunil Narine (67%)
+4          Sunil Narine (54%)        Sunil Narine (69%)        Krunal Pandya (73%)       Krunal Pandya (73%)       Krunal Pandya (63%)
+5         Kagiso Rabada (44%)         Rashid Khan (35%)          Rashid Khan (16%)  Varun Chakravarthy (28%)  Varun Chakravarthy (47%)
+6            Mark Adair (43%)       Kagiso Rabada (46%)   Varun Chakravarthy (33%)     Prasidh Krishna (34%)     Prasidh Krishna (53%)
+7           Rashid Khan (23%)       Kuldeep Yadav (26%)         Taskin Ahmed (41%)        Taskin Ahmed (40%)         Tim Southee (42%)
+8       Patrick Cummins (39%)         Mohsin Khan (52%)        Kagiso Rabada (39%)       Kagiso Rabada (34%)        Taskin Ahmed (42%)
+9           Mohsin Khan (40%)          Mark Adair (38%)          Mohsin Khan (46%)         Tim Southee (40%)   Mustafizur Rahman (43%)
+10  Matheesha Pathirana (28%)  Varun Chakravarthy (29%)  Matheesha Pathirana (29%)         Rashid Khan (13%)       Kagiso Rabada (40%)

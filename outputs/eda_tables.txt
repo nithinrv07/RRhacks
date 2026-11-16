@@ -1,0 +1,41 @@
+
+=== Chase: required run rate ===
+          balls  run_rate  dismissal_pct  dot_pct  boundary_pct
+rrr_band                                                       
+<6        11140      8.44           4.77    34.65         18.78
+6-8       15675      7.61           4.36    38.56         16.71
+8-10      22659      7.88           4.76    36.96         17.68
+10-12     18560      8.52           5.50    35.32         19.69
+12-15     11115      8.90           7.03    33.02         19.94
+15+        9840      8.84           9.33    35.66         19.94
+
+=== Wickets in hand ===
+              balls  run_rate  dismissal_pct  dot_pct  boundary_pct
+wkts_in_hand                                                       
+2              4115      7.43           9.82    41.51         15.72
+3              5984      7.88          10.16    39.35         17.10
+4              9666      8.47           8.22    33.78         17.73
+5             16374      8.56           6.19    31.39         17.70
+6             21802      8.34           5.58    31.73         16.83
+7             27182      8.23           5.07    31.55         16.69
+8             30859      8.37           4.88    32.46         17.93
+9             33175      8.56           4.77    36.17         20.24
+10            34817      8.48           4.63    41.36         22.06
+
+=== Phase x format ===
+                balls  run_rate  dismissal_pct  dot_pct  boundary_pct
+fmt  phase                                                           
+IPL  death      18563     10.07           8.19    28.59         23.15
+     middle     38062      8.33           4.56    29.71         16.70
+     powerplay  25672      8.61           4.16    43.20         23.75
+T20I death      22703      9.17           8.84    30.82         19.83
+     middle     48431      7.63           5.05    32.53         14.14
+     powerplay  32946      7.73           4.84    45.88         20.14
+
+=== Knockout vs league ===
+                 balls  run_rate  dismissal_pct  dot_pct  boundary_pct
+fmt  knock_out                                                        
+IPL  0           78014      8.81           5.23    33.66         20.36
+     1            4283      8.79           5.74    33.88         20.27
+T20I 0          101516      8.02           5.80    36.34         17.35
+     1            2564      7.20           6.12    37.99         14.39

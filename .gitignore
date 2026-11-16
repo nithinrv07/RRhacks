@@ -1,0 +1,11 @@
+# The data pack must never be committed
+data/
+# Ball-level and match-level files derived from the data pack
+outputs/*.csv.gz
+outputs/innings_totals.csv
+outputs/validation.csv
+outputs/before_fmt_fix/
+# Local tooling and bundles
+.claude/
+__pycache__/
+*.zip

@@ -1,0 +1,67 @@
+Pressure ball: leverage >= 1.5.  Eligibility for the leaderboard: >= 120 pressure balls.
+Baseline residuals over all balls (should be ~0): runs/100 faced -0.263, outs/100 faced -0.003, bowler runs/100 -0.251
+Eligible batters: 80   eligible bowlers: 89
+
+=== PROVISIONAL batting (raw, unshrunk) - sorted by WPA per 100 pressure balls ===
+            name  usual_position  ipl_share  balls_p   sr_p  rae_100_p  oae_100_p  wpa_100_p  drop_rae_100  drop_oae_100  matches_p  opp_edge_p
+ Ashutosh Sharma             7.0       0.96      125 198.40      40.59      -2.62     203.96         43.69         -3.06         17      -14.26
+       Tim David             6.0       0.51      269 192.19      40.70      -1.63     129.60         10.15         -0.36         41        7.69
+   Glenn Maxwell             4.0       0.53      150 158.67      19.30       0.55     103.35          1.68         -0.80         34       64.77
+    Matthew Wade             7.0       0.36      169 144.97       1.98      -2.77      85.64         16.38         -0.48         18        9.24
+  Dinesh Karthik             6.0       0.72      128 167.97      11.26      -2.95      84.30          1.24         -1.82         31       15.79
+     Rashid Khan             8.0       0.49      127 181.10      19.91       1.51      81.67         11.33          1.10         31       46.61
+ Reeza Hendricks             2.0       0.00      131 172.52      33.52      -1.41      74.23         25.17         -0.04         18       -0.11
+    Shreyas Iyer             4.0       0.65      335 152.24       9.15      -2.43      73.76         -3.27         -1.97         45       38.93
+   Rahul Tewatia             6.0       1.00      176 164.77       3.03      -1.80      68.40         18.15         -1.58         34       51.61
+     Rinku Singh             6.0       0.70      187 158.29       8.22      -4.06      67.37          2.18         -2.23         30      -12.93
+   Jitesh Sharma             6.0       0.81      174 170.69      26.57      -0.14      66.56         18.17         -1.10         30       18.85
+   Towhid Hridoy             4.0       0.00      184 142.39      11.56      -3.42      65.62         23.25         -2.22         25        8.41
+   Dasun Shanaka             6.0       0.10      179 158.66      15.96      -1.94      64.49         18.32         -1.93         26      -37.07
+  Kamindu Mendis             5.0       0.12      127 150.39      10.48      -2.11      56.78         18.10         -2.58         20        3.21
+      Babar Azam             2.0       0.00      121 157.85      24.21      -2.26      56.59         29.24         -0.95         24       -6.76
+   Sikandar Raza             4.0       0.13      209 144.50       9.69      -0.55      54.00          8.75         -0.04         28      -37.09
+Heinrich Klaasen             5.0       0.85      188 180.85      32.17      -0.26      51.49         11.91          1.12         35      -16.31
+  Glenn Phillips             4.0       0.07      161 143.48       8.98      -2.07      50.54         -3.24         -1.04         25       16.87
+ Pathum Nissanka             1.0       0.11      310 164.19      27.29      -2.35      46.10         30.67         -2.05         41      -34.82
+  Shashank Singh             6.0       1.00      122 163.93       5.05      -3.90      40.15        -12.20         -2.28         21      -24.66
+
+=== PROVISIONAL bowling (raw, unshrunk) - sorted by WPA per 100 pressure balls ===
+               name pace_or_spin  ipl_share  balls_p  econ_p  rsave_100_p  wae_100_p  dotae_pct_p  wpa_100_p  drop_rsave_100  matches_p  opp_edge_p
+        Abrar Ahmed         Spin       0.00      126    5.47        37.73       3.70        10.29      96.95           21.11         18      -27.16
+     Mohammad Nawaz         Spin       0.00      170    6.32        19.32       2.88         2.87      94.68           10.71         25       -6.02
+        Mohsin Khan         Pace       1.00      136    8.72        10.19       1.38         9.14      92.51           -2.34         26       19.87
+   Mitchell Santner         Spin       0.33      237    6.57        30.24       3.82         7.49      87.81           19.93         44      -29.05
+      Krunal Pandya         Spin       1.00      233    6.21        33.29       2.18         5.11      87.51           24.01         36       36.88
+     Josh Hazlewood         Pace       0.64      268    8.12        16.55       3.30         8.41      83.92           11.59         39       38.08
+       Sunil Narine         Spin       1.00      305    6.12        40.71      -0.16         5.07      66.88           12.50         41       -2.00
+        Jacob Duffy         Pace       0.18      120    8.22         7.44       3.48         8.14      64.46            8.44         29      -32.18
+         Mark Adair         Pace       0.00      173    7.83        19.16       2.51         0.59      63.53           14.44         28      -30.79
+    Patrick Cummins         Pace       0.83      144    8.80         5.08       2.30         4.86      59.42            8.07         31      -27.69
+       Taskin Ahmed         Pace       0.00      164    6.35        32.33      -0.78         5.55      55.68           32.28         27        5.41
+      Kuldeep Yadav         Spin       0.73      279    8.41         9.71       1.17         1.73      53.29           -0.36         48       17.80
+        Rashid Khan         Spin       0.63      383    7.55        15.56       0.61         3.04      51.14           -1.12         67       32.49
+Matheesha Pathirana         Pace       0.65      221    8.67        21.73       1.28         1.86      49.91            3.72         28      -13.49
+      Eshan Malinga         Pace       0.53      133    8.03        19.48       1.77         0.03      45.78           19.58         23      -22.55
+      Kagiso Rabada         Pace       0.75      227    9.13         5.73       4.23         5.20      44.84            9.31         46      -20.07
+        Tim Southee         Pace       0.29      156    7.52        19.23       2.26         6.41      41.98           14.85         25       43.15
+    Lockie Ferguson         Pace       0.57      187    8.63         5.42       0.78         6.54      41.80            4.41         40        0.42
+      Sikandar Raza         Spin       0.06      159    6.42        20.81      -2.15         0.78      41.17            5.63         27      -74.54
+      Cameron Green         Pace       0.75      127    8.22        12.52      -1.88        -1.87      39.23           26.63         19      -15.92
+
+Spearman correlation between pressure metrics (eligible players):
+batting:
+              rae_100_p  oae_100_p  wpa_100_p  drop_rae_100
+rae_100_p          1.00       0.07       0.63          0.60
+oae_100_p          0.07       1.00      -0.33         -0.10
+wpa_100_p          0.63      -0.33       1.00          0.52
+drop_rae_100       0.60      -0.10       0.52          1.00
+bowling:
+                rsave_100_p  wae_100_p  dotae_pct_p  wpa_100_p  drop_rsave_100
+rsave_100_p            1.00       0.39         0.60       0.78            0.71
+wae_100_p              0.39       1.00         0.53       0.53            0.41
+dotae_pct_p            0.60       0.53         1.00       0.54            0.49
+wpa_100_p              0.78       0.53         0.54       1.00            0.53
+drop_rsave_100         0.71       0.41         0.49       0.53            1.00
+
+Corr(pressure WPA/100, ordinary WPA/100): batters 0.15, bowlers 0.43
+Corr(pressure WPA/100, opposition edge): batters -0.02, bowlers 0.06  (positive = weak opposition inflates the metric)

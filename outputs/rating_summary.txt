@@ -1,0 +1,82 @@
+Pressure: leverage >= 1.5.  Eligible: >= 120 pressure balls -> 77 batters, 84 bowlers.
+Weights: batting {'rae_p': 0.4, 'surv_p': 0.3, 'wpa_p': 0.3}   bowling {'rsave_p': 0.35, 'dot_p': 0.25, 'wae_p': 0.15, 'wpa_p': 0.25}
+Shrinkage strength k (balls of 'average role player' added to every sample):
+  batting wpa_p 1154, wpa_np 891, rae_p 195, rae_np 121, surv_p 449, surv_np 448
+  bowling wpa_p 1359, wpa_np 1864, rsave_p 249, rsave_np 253, wae_p 1775, wae_np 2000, dot_p 175, dot_np 269
+Shrinkage prior: global average
+
+Role averages on pressure balls (raw, per 100 balls, players with 30+ pressure balls):
+                  wpa    rae  surv
+role                              
+finisher (6-7)  25.83   2.87  1.20
+lower (8-11)   -52.33 -10.23 -1.96
+middle (4-5)     8.32   1.85  0.67
+top (1-3)        2.29   3.84  0.11
+                     wpa  rsave   wae    dot
+role                                        
+Pace / death      -12.87  -5.32 -0.60  -0.92
+Pace / middle     -10.61  -8.54  0.17  -1.25
+Pace / powerplay    2.98   0.60  0.24   1.25
+Spin / death      103.14  31.65  5.28  11.79
+Spin / middle      21.91   9.50  0.28   1.39
+Spin / powerplay   39.14   9.38  0.76   4.97
+
+=== BATTERS (shrunk; wpa/rae/surv per 100 pressure balls; hold = z of pressure minus ordinary) ===
+ rank                 name           role   n_p  matches_p  ipl_share_p  rating  wpa_p  wpa_p_raw  rae_p  surv_p  hold  opp_edge_p
+    1            Tim David finisher (6-7) 269.0         41         0.52    2.33  30.35     129.60  24.71    0.89  0.52        7.69
+    2      Ashutosh Sharma finisher (6-7) 125.0         17         0.95    1.77  26.44     203.96  17.48    0.92  2.15      -14.26
+    3      Pathum Nissanka      top (1-3) 310.0         41         0.17    1.39  15.45      46.10  17.78    1.23  1.31      -34.82
+    4         Shreyas Iyer   middle (4-5) 335.0         45         0.78    1.21  22.19      73.76   6.77    1.30  0.63       38.93
+    5     Suryakumar Yadav   middle (4-5) 416.0         62         0.62    1.20  15.12      37.05  18.19    0.89 -0.52       -2.25
+    6          Rinku Singh finisher (6-7) 187.0         30         0.83    0.93  15.60      67.37   5.40    1.51  0.23      -12.93
+    7        Towhid Hridoy   middle (4-5) 184.0         25         0.00    0.87  15.25      65.62   6.99    1.31  1.10        8.41
+    8      Reeza Hendricks      top (1-3) 131.0         18         0.00    0.84  14.05      74.23  15.07    0.67  0.02       -0.11
+    9       Ryan Rickelton      top (1-3) 141.0         22         0.38    0.79  10.59      38.19  11.02    1.24  0.70      -47.39
+   10    Prabhsimran Singh      top (1-3) 232.0         36         1.00    0.76  10.98      29.73  21.02    0.29  1.24        8.90
+   11     Heinrich Klaasen   middle (4-5) 188.0         35         0.82    0.75  13.42      51.49  17.15    0.39 -0.86      -16.31
+   12         David Warner      top (1-3) 208.0         26         0.70    0.74  10.62      29.49   8.48    1.38  0.61       -5.80
+   13        Dasun Shanaka finisher (6-7) 179.0         26         0.07    0.69  14.90      64.49   9.04    0.88  1.00      -37.07
+   14      Nicholas Pooran   middle (4-5) 352.0         56         0.63    0.68  11.76      26.65  14.87    0.62 -0.06        0.54
+   15        Jitesh Sharma finisher (6-7) 174.0         30         0.85    0.64  14.99      66.56  13.94    0.36  1.14       18.85
+   16       Dinesh Karthik finisher (6-7) 128.0         31         0.86    0.62  14.91      84.30   6.09    1.01  0.18       15.79
+   17            Phil Salt      top (1-3) 210.0         39         0.42    0.60   9.06      19.24  20.02    0.29 -1.21        4.98
+   18         Matthew Wade finisher (6-7) 169.0         18         0.33    0.59  17.23      85.64   2.37    1.09  0.94        9.24
+   19        Sai Sudharsan      top (1-3) 280.0         40         1.00    0.55   9.70      19.93   6.86    1.28  0.09       51.12
+   20        Glenn Maxwell   middle (4-5) 150.0         34         0.41    0.50  18.27     103.35   9.91    0.20  0.71       64.77
+   21         Kusal Mendis      top (1-3) 253.0         34         0.01    0.44  11.84      32.94   3.90    1.16  0.85      -53.44
+   22       Glenn Phillips   middle (4-5) 161.0         25         0.11    0.39  12.52      50.54   5.54    0.88 -0.27       16.87
+   23 Namboori Tilak Varma   middle (4-5) 454.0         55         0.53    0.37  12.93      27.46   2.05    1.12 -0.55       46.57
+   24        Rahul Tewatia finisher (6-7) 176.0         34         1.00    0.36  15.31      68.40   2.86    0.83  1.23       51.61
+   25       Shashank Singh finisher (6-7) 122.0         21         1.00    0.36  10.36      40.15   3.60    1.19 -0.41      -24.66
+
+=== BOWLERS (shrunk; wpa/rsave/wae/dot per 100 pressure balls) ===
+ rank                name             role   n_p  matches_p  ipl_share_p  rating  wpa_p  wpa_p_raw  rsave_p  wae_p  dot_p  hold  opp_edge_p
+    1    Mitchell Santner    Spin / middle 237.0         44         0.38    2.04  16.92      87.81    15.42   0.48   4.54  2.26      -29.05
+    2        Sunil Narine    Spin / middle 305.0         41         1.00    1.86  15.98      66.88    23.01   0.00   3.42  0.90       -2.00
+    3      Josh Hazlewood Pace / powerplay 268.0         39         0.81    1.82  17.62      83.92     9.22   0.46   5.30  1.19       38.08
+    4       Krunal Pandya    Spin / middle 233.0         36         1.00    1.79  16.69      87.51    16.78   0.28   3.15  1.72       36.88
+    5         Rashid Khan    Spin / middle 383.0         67         0.57    1.14  14.80      51.14     9.95   0.13   2.25 -0.27       32.49
+    6  Varun Chakravarthy    Spin / middle 355.0         43         0.74    1.13  10.04      31.02     7.45   0.22   4.72 -0.25       44.30
+    7        Taskin Ahmed Pace / powerplay 164.0         27         0.00    1.04  10.06      55.68    13.64  -0.04   2.97  0.74        5.41
+    8       Kagiso Rabada Pace / powerplay 227.0         46         0.86    1.02  10.32      44.84     3.43   0.51   3.17  1.39      -20.07
+    9         Mohsin Khan Pace / powerplay 136.0         26         1.00    0.97  12.55      92.51     4.46   0.13   4.30  0.22       19.87
+   10 Matheesha Pathirana     Pace / death 221.0         28         0.69    0.94  10.90      49.91    10.92   0.17   1.28  0.47      -13.49
+   11         Tim Southee Pace / powerplay 156.0         25         0.28    0.94   8.41      41.98     8.22   0.21   3.31  0.62       43.15
+   12     Prasidh Krishna     Pace / death 244.0         36         0.92    0.84   6.11      14.79     5.44   0.06   5.91  0.38       32.59
+   13          Mark Adair     Pace / death 173.0         28         0.00    0.84  11.21      63.53     8.64   0.25   0.57  1.14      -30.79
+   14         Jacob Duffy Pace / powerplay 120.0         29         0.09    0.80   9.41      64.46     3.32   0.25   3.63  0.47      -32.18
+   15       Harpreet Brar    Spin / middle 135.0         23         1.00    0.79   7.37      35.74    10.41   0.01   2.85  0.38        3.08
+   16       Kuldeep Yadav    Spin / middle 279.0         48         0.81    0.79  12.85      53.29     5.75   0.19   1.27 -0.36       17.80
+   17   Mustafizur Rahman     Pace / death 235.0         47         0.26    0.77   7.25      22.86     6.06   0.06   4.50  0.06        9.60
+   18   Wanindu Hasaranga    Spin / middle 340.0         51         0.53    0.76   8.00      21.79     1.71   0.36   3.75 -0.79      -12.41
+   19      Jasprit Bumrah Pace / powerplay 331.0         44         0.91    0.67   8.97      27.09    10.28  -0.22   2.94 -0.98      -34.79
+   20     Lockie Ferguson Pace / powerplay 187.0         40         0.65    0.65   9.06      41.80     3.08   0.10   3.64  0.60        0.42
+   21     Patrick Cummins Pace / powerplay 144.0         31         0.76    0.63   9.81      59.42     2.70   0.20   2.49  1.30      -27.69
+   22       Khaleel Ahmed Pace / powerplay 184.0         42         0.97    0.62   7.65      30.49     8.63   0.14   0.91  0.87      -40.68
+   23         Trent Boult Pace / powerplay 323.0         45         0.90    0.57   3.28      -2.07     9.20   0.08   2.57  0.13       16.19
+   24       Eshan Malinga     Pace / death 133.0         23         0.52    0.54   8.23      45.78     7.65   0.15   0.32  0.79      -22.55
+   25        Mahedi Hasan Spin / powerplay 129.0         20         0.00    0.50   3.78      -4.42     5.78   0.04   3.60 -0.58       29.58
+
+Top 10 by role:
+  batters: {'top (1-3)': 4, 'finisher (6-7)': 3, 'middle (4-5)': 3}
+  bowlers: {'Spin / middle': 5, 'Pace / powerplay': 4, 'Pace / death': 1}
